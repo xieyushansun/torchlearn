@@ -37,3 +37,17 @@ import torch
 # print(x.size(), y.size(), z.size())
 
 # 将一个Torch Tensor转换为一个NumPy Array
+# a = torch.ones(5)
+# b = a.numpy()
+# print(a)
+# print(b)
+# a = a.add_(1)
+# print(b)  # 此时b相当于已经和a共用内存了，所以a变了b也变
+
+# 将一个NumPy Array转换为一个Torch Tensor
+# import numpy as np
+# a = np.ones(5)
+# b = torch.from_numpy(a)
+# np.add(a, 1, out=a)
+# print(a)
+# print(b)
