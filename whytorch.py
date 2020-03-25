@@ -35,3 +35,5 @@ import torch
 # print(y)
 # z = x.view(-1, 8)  # the size -1 is inferred from other dimensions
 # print(x.size(), y.size(), z.size())
+
+# 将一个Torch Tensor转换为一个NumPy Array
